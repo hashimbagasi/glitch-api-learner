@@ -31,6 +31,10 @@ app.get('/hashim', function(request, response) {
   response.send('My Name Is Hashim');
 });
 
+//example
+app.get('/ali', function(request, response) {
+  response.send('My Name Is ali');
+});
 app.get('/maldi', function(request, response) {
   response.send('White sandy beach');
 });
